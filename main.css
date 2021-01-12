@@ -1,0 +1,78 @@
+:root{
+    --dark_gray: #12161f;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: var(--dark_gray);
+    background-image: url('./assets/nodes.png');
+    background-position-x: center;
+    background-position-y:bottom;
+    background-size: min(100vw, 50rem);
+    background-repeat: no-repeat;
+    color:white;
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: min(100vw,50rem)
+}
+
+.hero_title>h2{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 400;
+}
+.hero_paragraph{
+    font-size: 1em;
+    font-weight: 300;
+    margin:2rem 0;
+    text-align: center;
+
+}
+.hero_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.btn{
+    padding: .8rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 1rem 1rem;
+
+}
+.principal{
+    color: white;
+    background-image: linear-gradient(to right, #5a5afb, #416eff, #2b7eff, #218dff, #2e9afd);
+}
+
+@media only screen and (min-width: 500px){
+
+    .hero_links{
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width: 1500px){
+
+    .hero{
+        font-size: 1.5rem;
+    }
+    body{
+        background-size: 80rem;
+    }
+}
