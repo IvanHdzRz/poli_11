@@ -1,6 +1,12 @@
 :root{
     --dark_gray: #12161f;
 }
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 body{
     font-family: 'Work Sans', sans-serif;
     background-color: var(--dark_gray);
@@ -54,11 +60,15 @@ body{
     text-decoration: none;
     font-weight: 500;
     margin: 1rem 1rem;
-
+    border-radius: .5rem;
 }
 .principal{
     color: white;
     background-image: linear-gradient(to right, #5a5afb, #416eff, #2b7eff, #218dff, #2e9afd);
+    transition: all .3s;
+}
+.principal:hover{
+    color: var(--dark_gray);
 }
 
 @media only screen and (min-width: 500px){
