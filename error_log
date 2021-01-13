@@ -1,0 +1,7 @@
+[12-Jan-2021 19:02:31 America/Mexico_City] PHP Warning:  require(./php/fetch_query): failed to open stream: No such file or directory in /home/polizona/public_html/mercado/11/agrupador.php on line 3
+[12-Jan-2021 19:02:31 America/Mexico_City] PHP Warning:  require(./php/fetch_query): failed to open stream: No such file or directory in /home/polizona/public_html/mercado/11/agrupador.php on line 3
+[12-Jan-2021 19:02:31 America/Mexico_City] PHP Fatal error:  require(): Failed opening required './php/fetch_query' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/polizona/public_html/mercado/11/agrupador.php on line 3
+[12-Jan-2021 19:22:28 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, array given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[12-Jan-2021 19:22:28 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6
+[12-Jan-2021 19:22:32 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, array given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[12-Jan-2021 19:22:32 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6
