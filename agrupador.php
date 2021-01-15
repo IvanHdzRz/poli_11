@@ -81,11 +81,30 @@
         ?>
         
     </div>
+    <h2>Datos de la industria</h2>
+    <div class="chart">
+        
+        <div class="loader" id="loading_chart">
+            
+        </div>
+        <div class="plot">
+            <canvas id="market_chart" width="400" height="400"></canvas>
+        </div>
+        <div class="plot">
+            <canvas id="prov_chart" width="400" height="400"></canvas>
+        </div>
+        <div class="plot">
+            <canvas id="prov_chart2" width="400" height="400"></canvas>
+        </div>
+        
+    </div>
     <div class="json">
         <h2>Datos en formato JSON</h2>
             <textarea name="json" id="json_data" cols="50" rows="15" readonly="true">
                 <?php echo json_encode(['datos_agregados'=>$insumos,'embarques'=>$embarques],JSON_PRETTY_PRINT); ?>
             </textarea>
     </div>
+    <script src="./js/agrupador_chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 </body>
 </html>

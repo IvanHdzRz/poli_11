@@ -23,7 +23,7 @@ body{
 }
 .insumo_card_container{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -34,6 +34,7 @@ body{
     margin: 1rem;
     color: black;
     display: grid;
+    width: min(95vw,20rem);
     grid-template-columns:repeat(2,auto);
     grid-template-rows: repeat(2,auto);
     border-radius: .5rem;
@@ -48,4 +49,38 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.plot{
+    width: min(90vw, 25rem);
+    
+    margin: 2rem;
+}
+.chart{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loader{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    background-color: var(--blue_sky);
+    animation-name: beat;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    opacity: .7;
+}
+@keyframes beat{
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
 }
