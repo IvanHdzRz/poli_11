@@ -3,6 +3,7 @@
     require './php/conexion.php';
     require './php/fetch_query.php';
     require './php/bd_meta_data.php';
+    require './php/generete_querys.php';
 
     $con=get_connection();
     $conInfo_schema=get_connection('information_schema');
@@ -24,10 +25,9 @@
         $key_selected_table=array_search($selected_table, array_column($bd_tables, 'name'));
         $key_selected_field_1=array_search($selected_field_1,$bd_tables[$key_selected_table]['fields'] );
         $key_selected_field_2=array_search($selected_field_2,$bd_tables[$key_selected_table]['fields'] );
+        //generacion de querys
+        $sql=generate_query($selected_table,$selected_field_1,$selected_field_2);
         
-        echo $bd_tables[$key_selected_table]['name'].'<br>';
-        echo $bd_tables[$key_selected_table]['fields'][$key_selected_field_1].'<br>';
-        echo $bd_tables[$key_selected_table]['fields'][$key_selected_field_2].'<br>';
     }
 ?>
 
@@ -82,6 +82,14 @@
 
          <input type="submit" value="Crear Query">
         </form>
+    </div>
+    <div class="querys">
+        <textarea name="query1" id="query1" cols="50" rows="15" readonly="true">
+            <?php echo $sql['query1']; ?>
+        </textarea>
+        <textarea name="query2" id="query2" cols="50" rows="15" readonly="true">
+            <?php echo $sql['query2']; ?>
+        </textarea>           
     </div>
     <script>
         const bd_tables=JSON.parse('<?php echo json_encode($bd_tables) ?>');
