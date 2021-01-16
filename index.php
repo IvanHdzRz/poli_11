@@ -27,7 +27,7 @@
         </div>
         <div class="hero_links">
             <a href="./agrupador.php" class="btn principal">Agrupador</a>
-            <a href="#" class="btn principal" >Clasificador</a>
+            <a href="./clasificador.php" class="btn principal" >Clasificador</a>
         </div>
     </div>
 </body>
