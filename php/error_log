@@ -3,3 +3,10 @@
 [13-Jan-2021 00:07:55 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/polizona/public_html/mercado/11/php/costo_competidores.php on line 56
 [13-Jan-2021 00:08:49 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/polizona/public_html/mercado/11/php/costo_competidores.php on line 56
 [13-Jan-2021 00:08:50 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file in /home/polizona/public_html/mercado/11/php/costo_competidores.php on line 56
+[13-Jan-2021 00:10:09 America/Mexico_City] PHP Warning:  mysqli_query(): Empty query in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[13-Jan-2021 00:10:09 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6
+[13-Jan-2021 00:10:51 America/Mexico_City] PHP Warning:  mysqli_query(): Empty query in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[13-Jan-2021 00:10:51 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6
+[15-Jan-2021 21:55:23 America/Mexico_City] PHP Warning:  require(.fetch_query.php): failed to open stream: No such file or directory in /home/polizona/public_html/mercado/11/php/bd_meta_data.php on line 3
+[15-Jan-2021 21:55:23 America/Mexico_City] PHP Warning:  require(.fetch_query.php): failed to open stream: No such file or directory in /home/polizona/public_html/mercado/11/php/bd_meta_data.php on line 3
+[15-Jan-2021 21:55:23 America/Mexico_City] PHP Fatal error:  require(): Failed opening required '.fetch_query.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/polizona/public_html/mercado/11/php/bd_meta_data.php on line 3
