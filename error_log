@@ -28,3 +28,42 @@
 [15-Jan-2021 23:06:26 America/Mexico_City] PHP Warning:  require(./fetch_query.php): failed to open stream: No such file or directory in /home/polizona/public_html/mercado/11/php/bd_meta_data.php on line 3
 [15-Jan-2021 23:06:26 America/Mexico_City] PHP Warning:  require(./fetch_query.php): failed to open stream: No such file or directory in /home/polizona/public_html/mercado/11/php/bd_meta_data.php on line 3
 [15-Jan-2021 23:06:26 America/Mexico_City] PHP Fatal error:  require(): Failed opening required './fetch_query.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/polizona/public_html/mercado/11/php/bd_meta_data.php on line 3
+[15-Jan-2021 23:46:11 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:46:11 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:46:11 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:46:11 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:46:16 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:46:16 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:46:16 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:46:16 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:46:44 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:46:44 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:46:44 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:46:44 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:46:49 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:46:49 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:46:49 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:46:49 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:47:59 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:47:59 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:47:59 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:47:59 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:49:49 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:49:49 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 26
+[15-Jan-2021 23:49:49 America/Mexico_City] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[15-Jan-2021 23:49:49 America/Mexico_City] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/polizona/public_html/mercado/11/clasificador.php on line 27
+[16-Jan-2021 00:03:22 America/Mexico_City] PHP Warning:  Illegal string offset 'campos' in /home/polizona/public_html/mercado/11/clasificador.php on line 30
+[16-Jan-2021 00:03:22 America/Mexico_City] PHP Warning:  Illegal string offset 'campos' in /home/polizona/public_html/mercado/11/clasificador.php on line 31
+[16-Jan-2021 17:33:22 America/Mexico_City] PHP Fatal error:  Call to undefined function fetch_query() in /home/polizona/public_html/mercado/11/clasificador.php on line 31
+[16-Jan-2021 17:34:30 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, array given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[16-Jan-2021 17:34:30 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6
+[16-Jan-2021 17:34:30 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, array given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[16-Jan-2021 17:34:30 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6
+[16-Jan-2021 17:34:41 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, array given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[16-Jan-2021 17:34:41 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6
+[16-Jan-2021 17:34:41 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, array given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[16-Jan-2021 17:34:41 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6
+[16-Jan-2021 17:35:39 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, array given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[16-Jan-2021 17:35:39 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6
+[16-Jan-2021 17:35:40 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, array given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 3
+[16-Jan-2021 17:35:40 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/polizona/public_html/mercado/11/php/fetch_query.php on line 6

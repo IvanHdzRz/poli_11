@@ -1,0 +1,113 @@
+:root{
+    --dark_gray: #12161f;
+    --blue_sky:#2e9afd;
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: var(--dark_gray);
+    color:white;
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.query_creator{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+textarea {
+    resize: none;
+    width:min(95vw,20rem);
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+  }
+
+.table_selectors,.selector{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+.querys{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+label, select{
+    font-size: 1.2rem;
+
+}
+label{
+    margin-bottom: 0.5rem;
+}
+.selector{
+    padding: 1rem;
+}
+select{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.btn{
+    border: none;
+    padding: .8rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 1rem 1rem;
+    border-radius: .5rem;
+}
+.principal{
+    color: white;
+    background-image: linear-gradient(to right, #5a5afb, #416eff, #2b7eff, #218dff, #2e9afd);
+    transition: all .3s;
+}
+.principal:hover{
+    color: var(--dark_gray);
+}
+.tables_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.table_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    max-height: 20rem;
+    overflow: auto;    
+}
+table{
+    border-collapse: colapso;
+    border-radius: 0.2rem;
+    border-spacing: 0;
+        
+}
+
+.tbl_proba td{
+    color: var(--dark_gray);
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.tbl_proba th{
+    color: white;
+    background-color: var(--blue_sky);
+    padding: 0.5rem;
+    font-size: 1rem;
+}
