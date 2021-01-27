@@ -1,6 +1,8 @@
 <?php 
-    function get_connection($schema='polizona_mercado'){
-        $con=mysqli_connect('68.70.164.26','polizona_lectura','Polizona-1',$schema);
+    function get_connection($schema='polizona_11'){
+        $user='polizona_11';
+        $pass='Once-Polizon';
+        $con=mysqli_connect('68.70.164.26',$user,$pass,$schema);
         //comprueba conexion correcta
         $error=mysqli_connect_errno();
         if(!$error){
